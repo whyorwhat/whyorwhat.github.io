@@ -1,18 +1,26 @@
 {
   "name": "whyorwhat-portfolio",
   "version": "0.0.0",
-  "homepage": "https://simonecotardo.com/",
+  "homepage": "https://simonecotardo.com",
   "private": true,
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy": "gh-pages -d dist --cname simonecotardo.com",
+    "predeploy": "npm run build",
+    "deploy": "echo simonecotardo.com > dist/CNAME && gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.12"
+    "@fortawesome/fontawesome-svg-core": "^6.7.1",
+    "@fortawesome/free-brands-svg-icons": "^6.7.1",
+    "@fortawesome/free-regular-svg-icons": "^6.7.1",
+    "@fortawesome/free-solid-svg-icons": "^6.7.1",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "bootstrap": "^5.3.3",
+    "sass": "^1.81.0",
+    "vue": "^3.5.12",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",

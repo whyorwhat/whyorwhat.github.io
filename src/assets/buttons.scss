@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+// Drop shadow mixin
+@mixin dropShadow($horiz, $vert, $blur, $spread, $horiz2, $vert2, $blur2, $spread2, $horiz3, $vert3, $blur3, $spread3, $horiz4, $vert4, $blur4, $spread4, $horiz5, $vert5, $blur5, $spread5) {
+    -moz-box-shadow: $horiz $vert $blur $spread, $horiz2 $vert2 $blur2 $spread2, $horiz3 $vert3 $blur3 $spread3, $horiz4 $vert4 $blur4 $spread4, $horiz5 $vert5 $blur5 $spread5;
+    -webkit-box-shadow: $horiz $vert $blur $spread, $horiz2 $vert2 $blur2 $spread2, $horiz3 $vert3 $blur3 $spread3, $horiz4 $vert4 $blur4 $spread4, $horiz5 $vert5 $blur5 $spread5;
+    box-shadow: $horiz $vert $blur $spread, $horiz2 $vert2 $blur2 $spread2, $horiz3 $vert3 $blur3 $spread3, $horiz4 $vert4 $blur4 $spread4, $horiz5 $vert5 $blur5 $spread5;
+}
+
+// Button styles
+.custom-btn {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000 !important;
+    border: 3px solid;
+    padding: 0.25em 0.75em;
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    @include dropShadow(1px, 1px, 0px, 0px, 2px, 2px, 0px, 0px, 3px, 3px, 0px, 0px, 4px, 4px, 0px, 0px, 5px, 5px, 0px, 0px);
+
+    &:hover {
+        transform: translateY(-2px) scale(1.01);
+    }
+
+    &:active {
+        -moz-box-shadow: 0 0 0 0;
+        -webkit-box-shadow: 0 0 0 0;
+        box-shadow: 0 0 0 0;
+    }
+}
