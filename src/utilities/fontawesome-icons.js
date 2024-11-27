@@ -2,7 +2,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import {
     faAt,
-    faArrowUpRightFromSquare,
+    faArrowUpRightFromSquare, faDiagramProject,
 
 } from '@fortawesome/free-solid-svg-icons';
 
@@ -15,7 +15,8 @@ library.add(
     faLinkedin,
     faGithub,
     faAt,
-    faArrowUpRightFromSquare
+    faArrowUpRightFromSquare,
+    faDiagramProject
 );
 
 export default FontAwesomeIcon;

@@ -12,6 +12,7 @@
           <TechnologiesIcons :technologies="technologies" />
         </div>
         <div class="button-container">
+          <!-- Live button-->
           <a
               v-if="liveLink"
               :href="liveLink"
@@ -20,6 +21,8 @@
           >
             <font-awesome-icon :icon="['fas', 'arrow-up-right-from-square']" /> View live
           </a>
+
+          <!-- Github button-->
           <a
               v-if="githubLink"
               :href="githubLink"
@@ -28,9 +31,23 @@
           >
             <font-awesome-icon :icon="['fab', 'github']" /> GitHub
           </a>
+
+          <!-- Discover button-->
+          <a
+              v-if="discoverLink"
+              :href="discoverLink"
+              class="view-btn discover-btn"
+              target="_blank"
+          >
+            <font-awesome-icon :icon="['fas', 'diagram-project']" /> Discover
+          </a>
         </div>
       </div>
-      <img :src="image" alt="{{ title }}" class="project-image" />
+      <img
+          :src="`/images/projects/${id}.png`"
+          :alt="title"
+          class="project-image"
+      />
     </div>
 </template>
 
@@ -42,6 +59,10 @@ export default {
     TechnologiesIcons,
   },
   props: {
+    id: {
+      type: Number,
+      required: true,
+    },
     title: {
       type: String,
       required: true,
@@ -58,9 +79,9 @@ export default {
       type: String,
       required: false,
     },
-    image: {
+    discoverLink: {
       type: String,
-      required: true,
+      required: false,
     },
     technologies: {
       type: Array,
@@ -224,6 +245,11 @@ export default {
 }
 
 .github-btn {
+  background: none;
+  color: #555;
+}
+
+.discover-btn {
   background: none;
   color: #555;
 }

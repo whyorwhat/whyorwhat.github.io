@@ -1,11 +1,16 @@
 <template>
   <div class="technologies">
-    <i
+    <div
         v-for="tech in technologies"
         :key="tech"
-        :class="`devicon-${tech}-plain`"
-        aria-hidden="true"
-    ></i>
+        class="technology"
+    >
+      <i
+          :class="`devicon-${tech}-plain colored`"
+          aria-hidden="true"
+      ></i>
+      <span class="tooltip">{{ tech }}</span>
+    </div>
   </div>
 </template>
 
@@ -28,12 +33,27 @@ export default {
 
 .technologies i {
   font-size: 1.5rem;
-  color: #555;
   transition: transform 0.2s, color 0.2s;
 }
 
-.technologies i:hover {
-  transform: scale(1.08);
-  color: #7e7d7d;
+.tooltip {
+  visibility: hidden;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 4px;
+  position: absolute;
+  transform: translateX(-50%);
+  font-size: 0.8rem;
+  white-space: nowrap;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.technology:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
 }
 </style>

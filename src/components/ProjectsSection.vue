@@ -4,10 +4,12 @@
       <ProjectCard
           v-for="project in projects"
           :key="project.id"
+          :id="project.id"
           :title="project.title"
           :description="project.description"
           :liveLink="project.liveLink"
           :githubLink="project.githubLink"
+          :discoverLink="project.discoverLink"
           :image="project.image"
           :technologies="project.technologies"
       />
@@ -28,44 +30,44 @@ export default {
         {
           id: 1,
           title: 'AuroraKeep',
-          description: 'Descrizione del progetto 1.',
-          liveLink: 'https://simonecotardo.com',
-          githubLink: 'https://simonecotardo.com',
-          image: 'https://via.placeholder.com/300x200',
-          technologies: ['php', 'javascript'],
+          description: 'Accounting web app, designed for businesses and individuals',
+          liveLink: 'https://aurorakeep.com',
+          technologies: ['spring', 'java', 'vuejs', 'bootstrap', 'mariadb', 'aws'],
         },
         {
           id: 2,
           title: 'ParlArte',
-          description: 'Descrizione del progetto 2.',
-          liveLink: 'https://simonecotardo.com',
-          githubLink: 'https://simonecotardo.com',
-          image: 'https://via.placeholder.com/300x200',
-          technologies: ['python', 'html5'],
+          description: 'Web app designed for speech therapists. Based on AI, it generates customized images to help children with communication issues.',
+          liveLink: 'https://parlarte.com',
+          technologies: ['python', 'vuejs', 'bootstrap', 'dynamodb', 'aws'],
         },
         {
           id: 3,
           title: 'TiSeguo',
-          description: 'Descrizione del progetto 3.',
-          liveLink: 'https://simonecotardo.com',
-          image: 'https://via.placeholder.com/300x200',
-          technologies: ['python', 'html5'],
+          description: 'A revolutionary web app to manage, connect and centralize insurance claims for insurance companies.',
+          discoverLink: 'https://simonecotardo.com/tiseguo',
+          technologies: ['spring', 'java', 'vuejs', 'mongodb', 'mysql', 'aws', 'bootstrap'],
         },
         {
           id: 4,
-          title: 'Web app',
+          title: 'Web development',
           description: 'Descrizione del progetto 4.',
-          githubLink: 'https://vittoriaassicurazioniluino.com',
-          image: 'https://via.placeholder.com/300x200',
-          technologies: ['python', 'html5'],
+          liveLink: 'https://vittoriaassicurazioniluino.com',
+          technologies: ['php', 'html5', 'javascript', 'mysql', 'css3'],
         },
         {
           id: 5,
-          title: 'Project5',
+          title: 'simonecotardo.com',
           description: 'Descrizione del progetto 5.',
-          liveLink: 'https://simonecotardo.com/ti-seguo',
-          image: 'https://via.placeholder.com/300x200',
-          technologies: ['python', 'html5'],
+          githubLink: 'https://github.com/whyorwhat/whyorwhat.github.io',
+          technologies: ['vuejs', 'html5', 'scss'],
+        },
+        {
+          id: 6,
+          title: 'Customer Radar',
+          description: 'Enterprise CRM software. Based on AI, it analyzes customers and provides target recommendations for cross-selling and up-selling.',
+          discoverLink: 'https://simonecotardo.com/customer-radar',
+          technologies: ['python', 'dynamodb', 'mongodb'],
         },
       ],
     };
