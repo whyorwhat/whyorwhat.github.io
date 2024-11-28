@@ -5,12 +5,17 @@
         ref="card"
     >
       <div class="content">
+
         <h3 class="project-title">{{ title }}</h3>
+
         <p class="project-description">{{ description }}</p>
+
+        <!-- Technologies -->
         <div class="made-with">
           <span>Made with:</span>
           <TechnologiesIcons :technologies="technologies" />
         </div>
+
         <div class="button-container">
           <!-- Live button-->
           <a
@@ -33,16 +38,17 @@
           </a>
 
           <!-- Discover button-->
-          <a
+          <router-link
               v-if="discoverLink"
-              :href="discoverLink"
+              :to="discoverLink"
               class="view-btn discover-btn"
-              target="_blank"
           >
             <font-awesome-icon :icon="['fas', 'diagram-project']" /> Discover
-          </a>
+          </router-link>
         </div>
       </div>
+
+      <!-- App preview -->
       <img
           :src="`/images/projects/${id}.png`"
           :alt="title"
@@ -99,7 +105,7 @@ export default {
         ([entry]) => {
           if (entry.isIntersecting) {
             this.isVisible = true;
-            this.hasBeenVisible = true; // Mark the cars as "already visible"
+            this.hasBeenVisible = true; // Mark the cards as "already visible"
           } else if (entry.boundingClientRect.top > 0) {
             // Hide below cards
             this.isVisible = false;
@@ -115,6 +121,9 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800');
+@import url('https://fonts.googleapis.com/css2?family=family=Inconsolata:wght@200..900');
+
 .project-card {
   display: flex;
   flex-direction: column;
@@ -146,28 +155,29 @@ export default {
 
 .project-title {
   font-size: 1.5rem;
-  margin-bottom: 10px;
-  font-weight: 600;
+  font-family: "Figtree", monospace;
+  font-weight: 800;
+  margin-bottom: 20px;
   color: #333;
 }
 
 .project-description {
   font-size: 0.9rem;
+  font-family: "Open Sans", monospace;
+  font-weight: 400;
   color: #555;
   margin-bottom: 10px;
   text-transform: none;
-  font-family: 'Roboto', sans-serif;
 }
 
 .made-with {
   display: flex;
   align-items: center;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   margin-bottom: 20px;
 }
 .made-with span {
   margin-right: 10px;
-  font-weight: bold;
 }
 
 .project-image {

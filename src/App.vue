@@ -10,11 +10,15 @@ export default {};
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css2?family=Figtree');
 
 #app{
   font-family: "Inconsolata", monospace;
   background-color: #e2e2e2;
   min-height: 100vh;
+}
+p{
+  font-family: "Figtree", monospace;
 }
 body {
   margin: 0;
