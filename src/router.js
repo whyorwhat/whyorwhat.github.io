@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import HomeView from './views/HomeView.vue';
 import ProjectsView from './views/ProjectsView.vue';
 import ContactsView from "@/views/ContactsView.vue";
@@ -12,24 +12,28 @@ const routes = [
     },
     {
         path: '/projects',
+        name: 'Projects',
         component: ProjectsView,
     },
     {
         path: "/contacts",
+        name: 'Contacts',
         component: ContactsView,
     },
     {
         path: "/ti-seguo",
+        name: 'TiSeguoView',
         component: TiSeguoView,
     },
     {
         path: "/customer-radar",
+        name: 'CustomerRadarView',
         component: CustomerRadarView,
     },
 ];
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes,
 });
 
