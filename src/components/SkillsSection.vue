@@ -32,10 +32,11 @@ export default {
       techList: [
         { name: "Java", icon: "java" },
         { name: "Python", icon: "python" },
+        { name: "PHP", icon: "php" },
         { name: "JavaScript", icon: "javascript" },
+        { name: "AWS", icon: "amazonwebservices" },
         { name: "Vue.js", icon: "vuejs" },
         { name: "HTML5", icon: "html5" },
-        { name: "AWS", icon: "amazonwebservices" },
         { name: "Docker", icon: "docker" },
         { name: "Spring", icon: "spring" },
         { name: "CSS", icon: "css3" },
@@ -48,7 +49,6 @@ export default {
         { name: "Linux", icon: "linux" },
         { name: "Windows", icon: "windows11" },
         { name: "macOS", icon: "apple" },
-        { name: "PHP", icon: "php" },
       ],
       extendedTechList: [], // Dynamic list
 
