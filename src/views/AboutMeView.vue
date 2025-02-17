@@ -25,20 +25,15 @@
       <!-- Skills -->
       <div class="skills-text">
         <h2 class="page-title">Skills</h2>
-        <ul class="skills-list">
-          <li><strong>💻 Programming languages:</strong> Java, Python, PHP, JavaScript</li>
-          <li><strong>🌐 Frontend:</strong> HTML, CSS, Vue.js, Vite, Axios, Bootstrap</li>
-          <li><strong>⚙️ Backend and Frameworks:</strong> Spring Boot + Spring Framework, Docker, REST APIs, Microservices, Design patterns, SOLID principles, SOA</li>
-          <li><strong>🗄 Databases:</strong> MySQL, MariaDB, DynamoDB, MongoDB, NoSQL, Hibernate/JPA</li>
-          <li><strong>🛠 Version Control:</strong> Git, GitHub</li>
-          <li><strong>☁️ Cloud & DevOps:</strong> AWS, Docker</li>
-          <li><strong>🔒 Security:</strong> OWASP, JWT, Encryption, IAM, KMS, OAuth</li>
-          <li><strong>🧪 Testing:</strong> Unit Testing, Integration Testing, JUnit, Mockito, Postman</li>
-          <li><strong>💬 Message Brokers:</strong> RabbitMQ</li>
-          <li><strong>🌍 Networking & Protocols:</strong> TCP/IP, HTTP/HTTPS, DNS, DHCP, LAN/WAN, Routing/Switching, Port forwarding, Firewall configuration, Network Security basics, Load balancing, IPv4/IPv6, SSH, QoS</li>
-          <li><strong>🖥️ Operating Systems:</strong> Linux (bash, system administration, apt, yum, cron jobs), Windows (PowerShell, task automation), macOS (brew, zsh)</li>
-          <li><strong>🏢 Business & Process Analysis:</strong> BPMN, UML, Use Case Diagrams, Process Mapping, Business Requirements Analysis, Stakeholder management, Budgeting & Cost estimation, PLM</li>
-        </ul>
+        <div class="skills-container">
+          <div class="skill-block" v-for="(skill, index) in skills" :key="index">
+            <div class="skill-title">
+              <span v-html="skill.icon"></span>
+              <strong>{{ skill.title.toUpperCase() }}</strong>
+            </div>
+            <div class="skill-content">{{ skill.content }}</div>
+          </div>
+        </div>
       </div>
 
       <!-- Skills -->
@@ -60,6 +55,24 @@ import Footer from "@/components/Footer.vue";
 export default {
   name: "AboutMeView",
   components: {Footer, SkillsSection, Navbar},
+  data() {
+    return {
+      skills: [
+        { icon: '💻', title: 'Programming languages', content: 'Java, Python, PHP, JavaScript' },
+        { icon: '🌐', title: 'Frontend', content: 'HTML, CSS, Vue.js, Vite, Axios, Bootstrap' },
+        { icon: '⚙️', title: 'Backend and Frameworks', content: 'Spring Boot + Spring Framework, Docker, REST APIs, Microservices, Design patterns, SOLID principles, SOA' },
+        { icon: '🗄', title: 'Databases', content: 'MySQL, MariaDB, DynamoDB, MongoDB, NoSQL, Hibernate/JPA' },
+        { icon: '🛠', title: 'Version Control', content: 'Git, GitHub' },
+        { icon: '☁️', title: 'Cloud & DevOps', content: 'AWS, Docker' },
+        { icon: '🔒', title: 'Security', content: 'OWASP, JWT, Encryption, IAM, KMS, OAuth' },
+        { icon: '🧪', title: 'Testing', content: 'Unit Testing, Integration Testing, JUnit, Mockito, Postman' },
+        { icon: '💬', title: 'Message Brokers', content: 'RabbitMQ' },
+        { icon: '🌍', title: 'Networking & Protocols', content: 'TCP/IP, HTTP/HTTPS, DNS, DHCP, LAN/WAN, Routing/Switching, Port forwarding, Firewall configuration, Network Security basics, Load balancing, IPv4/IPv6, SSH, QoS' },
+        { icon: '🖥️', title: 'Operating Systems', content: 'Linux (bash, system administration, apt, yum, cron jobs), Windows (PowerShell, task automation), macOS (brew, zsh)' },
+        { icon: '🏢', title: 'Business & Process Analysis', content: 'BPMN, UML, Use Case Diagrams, Process Mapping, Business Requirements Analysis, Stakeholder management, Budgeting & Cost estimation, PLM' },
+      ]
+    }
+  }
 
 }
 
@@ -96,5 +109,11 @@ strong{
 .description-text p{
   font-family: "Ubuntu", monospace;
   margin-bottom: 0.5rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 </style>

@@ -183,6 +183,7 @@ export default {
   width: clamp(350px, 30%, 450px); /* Dynamic size */
   height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 8px 0;
 }
 /* Device screens */
 @media (max-width: 768px) {
