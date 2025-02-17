@@ -9,7 +9,7 @@ export default {};
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:n,i,b,bi');
 
 #app{
   font-family: "Ubuntu", monospace;
