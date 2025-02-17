@@ -45,6 +45,9 @@ export default {
         { name: "DynamoDB", icon: "dynamodb" },
         { name: "MongoDB", icon: "mongodb" },
         { name: "MySQL", icon: "mysql" },
+        { name: "Linux", icon: "linux" },
+        { name: "Windows", icon: "windows11" },
+        { name: "macOS", icon: "apple" },
         { name: "PHP", icon: "php" },
       ],
       extendedTechList: [], // Dynamic list
