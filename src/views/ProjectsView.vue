@@ -2,8 +2,17 @@
   <div class="layout">
     <Navbar />
     <div class="container mt-5">
-      <h1 class="page-title">My Projects</h1>
-      <ProjectsSection />
+      <!-- Skills -->
+      <div class="skills">
+        <h1 class="page-title">Skills</h1>
+        <SkillsSection />
+      </div>
+
+      <!-- Projects -->
+      <div class="projects">
+        <h1 class="page-title">Projects</h1>
+        <ProjectsSection />
+      </div>
     </div>
     <Footer />
   </div>
@@ -13,10 +22,12 @@
 import Navbar from '../components/Navbar.vue';
 import ProjectsSection from '../components/ProjectsSection.vue';
 import Footer from '../components/Footer.vue';
+import SkillsSection from "@/components/SkillsSection.vue";
 
 export default {
   name: 'ProjectsView',
   components: {
+    SkillsSection,
     Navbar,
     ProjectsSection,
     Footer,
@@ -30,14 +41,20 @@ export default {
   flex-direction: column;
   min-height: 100vh;
 }
+
 .container {
   flex-grow: 1;
   padding-bottom: 50px;
 }
+
 .page-title {
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
   margin-bottom: 30px;
+}
+
+.skills {
+  margin-bottom: 25%;
 }
 </style>
