@@ -2,12 +2,6 @@
   <div class="layout">
     <Navbar />
     <div class="container mt-5">
-      <!-- Skills -->
-      <div class="skills">
-        <h1 class="page-title">Skills</h1>
-        <SkillsSection />
-      </div>
-
       <!-- Projects -->
       <div class="projects">
         <h1 class="page-title">Projects</h1>
@@ -54,7 +48,4 @@ export default {
   margin-bottom: 30px;
 }
 
-.skills {
-  margin-bottom: 25%;
-}
 </style>

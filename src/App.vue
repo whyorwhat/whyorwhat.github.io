@@ -9,16 +9,15 @@ export default {};
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Inconsolata');
-@import url('https://fonts.googleapis.com/css2?family=Figtree');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 #app{
-  font-family: "Inconsolata", monospace;
+  font-family: "Ubuntu", monospace;
   background-color: #e2e2e2;
   min-height: 100vh;
 }
 p{
-  font-family: "Figtree", monospace;
+  font-family: "Ubuntu", monospace;
 }
 body {
   margin: 0;

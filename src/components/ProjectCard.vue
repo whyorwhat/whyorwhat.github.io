@@ -121,9 +121,6 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800');
-@import url('https://fonts.googleapis.com/css2?family=family=Inconsolata:wght@200..900');
-
 .project-card {
   display: flex;
   flex-direction: column;
@@ -155,7 +152,6 @@ export default {
 
 .project-title {
   font-size: 1.5rem;
-  font-family: "Figtree", monospace;
   font-weight: 800;
   margin-bottom: 20px;
   color: #333;
@@ -163,7 +159,6 @@ export default {
 
 .project-description {
   font-size: 0.9rem;
-  font-family: "Open Sans", monospace;
   font-weight: 400;
   color: #555;
   margin-bottom: 10px;

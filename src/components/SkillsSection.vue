@@ -47,8 +47,16 @@ export default {
         { name: "MongoDB", icon: "mongodb" },
         { name: "MySQL", icon: "mysql" },
         { name: "Linux", icon: "linux" },
+        { name: "Bash", icon: "bash" },
         { name: "Windows", icon: "windows11" },
+        { name: "PowerShell", icon: "powershell" },
         { name: "macOS", icon: "apple" },
+        { name: "HomeBrew", icon: "homebrew" },
+        { name: "JUnit", icon: "junit" },
+        { name: "Postman", icon: "postman" },
+        { name: "Git", icon: "git" },
+        { name: "GitHub", icon: "github" },
+        { name: "RabbitMQ", icon: "rabbitmq" },
       ],
       extendedTechList: [], // Dynamic list
 

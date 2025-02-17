@@ -24,7 +24,7 @@ export default {
 }
 
 .footer p {
-  font-family: "Inconsolata", monospace;
+  font-family: "Ubuntu", monospace;
   font-size: 1em;
   color: #333;
 }

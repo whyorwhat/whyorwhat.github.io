@@ -5,8 +5,9 @@
     </header>
     <main class="content">
       <div class="button-container">
-        <router-link class="custom-btn" to="/projects">View Projects</router-link>
-        <router-link class="custom-btn" to="/contacts">Contact Me</router-link>
+        <router-link class="custom-btn" to="/me">About Me</router-link>
+        <router-link class="custom-btn" to="/projects">Projects</router-link>
+        <router-link class="custom-btn" to="/contacts">Contact</router-link>
       </div>
     </main>
     <Footer />

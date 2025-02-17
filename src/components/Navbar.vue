@@ -21,6 +21,12 @@
         <ul class="navbar-nav ms-auto">
           <li
               class="nav-item"
+              :class="{ active: isActiveRoute('/me') }"
+          >
+            <router-link to="/me" class="nav-link">About Me</router-link>
+          </li>
+          <li
+              class="nav-item"
               :class="{ active: isActiveRoute('/projects') }"
           >
             <router-link to="/projects" class="nav-link">Projects</router-link>

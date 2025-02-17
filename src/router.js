@@ -4,11 +4,17 @@ import ProjectsView from './views/ProjectsView.vue';
 import ContactsView from "@/views/ContactsView.vue";
 import CustomerRadarView from "@/views/CustomerRadarView.vue";
 import TiSeguoView from "@/views/TiSeguoView.vue";
+import AboutMeView from "@/views/AboutMeView.vue";
 
 const routes = [
     {
         path: '/',
         component: HomeView,
+    },
+    {
+        path: '/me',
+        name: 'AboutMe',
+        component: AboutMeView,
     },
     {
         path: '/projects',
