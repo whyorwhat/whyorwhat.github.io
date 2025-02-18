@@ -24,7 +24,7 @@
         </a>
         <a
             class="custom-btn"
-            href="mailto:simo.cotardo@example.com"
+            href="mailto:simo.cotardo@gmail.com"
         >
           <font-awesome-icon :icon="['fas', 'at']" /> Send Email
         </a>
