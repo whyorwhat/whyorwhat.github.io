@@ -33,9 +33,11 @@ export default {
         { name: "Java", icon: "java" },
         { name: "Python", icon: "python" },
         { name: "PHP", icon: "php" },
+        { name: "React", icon: "react" },
         { name: "JavaScript", icon: "javascript" },
         { name: "AWS", icon: "amazonwebservices" },
         { name: "Vue.js", icon: "vuejs" },
+        { name: "Tailwind", icon: "tailwindcss" },
         { name: "HTML5", icon: "html5" },
         { name: "Docker", icon: "docker" },
         { name: "Spring", icon: "spring" },
@@ -57,6 +59,7 @@ export default {
         { name: "Git", icon: "git" },
         { name: "GitHub", icon: "github" },
         { name: "RabbitMQ", icon: "rabbitmq" },
+        { name: "Vite", icon: "vitejs" },
       ],
       extendedTechList: [], // Dynamic list
 

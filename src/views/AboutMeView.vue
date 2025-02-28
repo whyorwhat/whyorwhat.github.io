@@ -58,8 +58,8 @@ export default {
   data() {
     return {
       skills: [
-        { icon: '💻', title: 'Programming languages', content: 'Java, Python, PHP, JavaScript' },
-        { icon: '🌐', title: 'Frontend', content: 'HTML, CSS, Vue.js, Vite, Axios, Bootstrap' },
+        { icon: '💻', title: 'Programming languages', content: 'Java, Python, PHP, React, JavaScript' },
+        { icon: '🌐', title: 'Frontend', content: 'HTML, CSS, Vue.js, Tailwind, Vite, Axios, Bootstrap' },
         { icon: '⚙️', title: 'Backend and Frameworks', content: 'Spring Boot + Spring Framework, Docker, REST APIs, Microservices, Design patterns, SOLID principles, SOA' },
         { icon: '🗄', title: 'Databases', content: 'MySQL, MariaDB, DynamoDB, MongoDB, NoSQL, Hibernate/JPA' },
         { icon: '🛠', title: 'Version Control', content: 'Git, GitHub' },
@@ -70,6 +70,7 @@ export default {
         { icon: '🌍', title: 'Networking & Protocols', content: 'TCP/IP, HTTP/HTTPS, DNS, DHCP, LAN/WAN, Routing/Switching, Port forwarding, Firewall configuration, Network Security basics, Load balancing, IPv4/IPv6, SSH, QoS' },
         { icon: '🖥️', title: 'Operating Systems', content: 'Linux (bash, system administration, apt, yum, cron jobs), Windows (PowerShell, task automation), macOS (brew, zsh)' },
         { icon: '🏢', title: 'Business & Process Analysis', content: 'BPMN, UML, Use Case Diagrams, Process Mapping, Business Requirements Analysis, Stakeholder management, Budgeting & Cost estimation, PLM' },
+        { icon: '🎨', title: 'Design', content: 'Adobe Photoshop, Adobe Illustrator, Final Cut Pro' },
       ]
     }
   }
