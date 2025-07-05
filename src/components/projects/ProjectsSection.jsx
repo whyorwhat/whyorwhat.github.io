@@ -18,7 +18,7 @@ export function ProjectsSection() {
                 description:
                     'A user-friendly accounting web app for businesses and individuals, offering features such as expense tracking, invoicing, tax calculations, file management, and support for customizable formulas.',
                 viewLink: 'https://aurorakeep.com',
-                technologies: ['spring', 'java', 'vuejs', 'bootstrap', 'mariadb', 'amazonwebservices']
+                technologies: ['java', 'spring', 'vuejs', 'bootstrap', 'mariadb', 'amazonwebservices']
             },
             {
                 id: 3,
@@ -34,7 +34,7 @@ export function ProjectsSection() {
                 description:
                     'A revolutionary web app that streamlines and centralizes insurance claims processing for insurance companies. It enhances efficiency, reduces processing time, and improves communication, providing faster resolutions and a superior customer experience.',
                 viewLink: '/ti-seguo',
-                technologies: ['spring', 'java', 'vuejs', 'mongodb', 'mysql', 'amazonwebservices', 'bootstrap']
+                technologies: ['java','spring', 'vuejs', 'mongodb', 'mysql', 'amazonwebservices', 'bootstrap']
             },
             {
                 id: 5,

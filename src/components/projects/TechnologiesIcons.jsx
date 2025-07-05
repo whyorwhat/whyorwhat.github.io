@@ -10,12 +10,11 @@ import {
     FaHtml5,
     FaCss3Alt,
     FaBootstrap,
-    FaSeedling
 } from 'react-icons/fa';
 import {RiTailwindCssFill} from "react-icons/ri";
 import {DiMongodb} from "react-icons/di";
 import {GrMysql} from "react-icons/gr";
-import {SiAmazondynamodb, SiMariadb} from "react-icons/si";
+import {SiAmazondynamodb, SiMariadb, SiSpring} from "react-icons/si";
 
 // Label human-friendly
 const labels = {
@@ -39,7 +38,7 @@ const labels = {
 };
 
 const iconMap = {
-    spring: FaSeedling,
+    spring: SiSpring,
     java: FaJava,
     python: FaPython,
     php: FaPhp,

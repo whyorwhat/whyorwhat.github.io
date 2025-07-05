@@ -112,7 +112,7 @@
 
   "notifications": {
     "newRequest": "Nuova richiesta ricevuta",
-    "markedDone": "Richiesta contrassegnata come risolto",
+    "markedDone": "Richiesta contrassegnata come risolta",
     "infoUpdated": "Informazioni aggiornate",
     "waitingReply": "Il cliente è in attesa di risposta",
     "sendError": "Errore nell'invio del messaggio"

@@ -20,12 +20,12 @@ export default function AboutMeView() {
         {
           icon: FaLaptopCode,
           title: "Programming Languages",
-          content: "Java, Python, PHP, React, JavaScript",
+          content: "Java, Python, PHP, JavaScript",
         },
         {
           icon: FaGlobe,
           title: "Frontend",
-          content: "HTML, CSS, React, Tailwind, Vite, Axios",
+          content: "HTML, CSS, React, Tailwind, Bootstrap, Vite, VueJS, Axios",
         },
         {
           icon: FaServer,

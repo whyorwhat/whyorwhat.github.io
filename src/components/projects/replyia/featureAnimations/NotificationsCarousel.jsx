@@ -1,17 +1,17 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaBell } from "react-icons/fa";
+import {FaBell, FaUserClock} from "react-icons/fa";
 import { CiCircleCheck } from "react-icons/ci";
 import { IoMdInformationCircle } from "react-icons/io";
-import { GoAlert, GoXCircleFill } from "react-icons/go";
+import { GoXCircleFill } from "react-icons/go";
 import {useTranslation} from "react-i18next";
 
 const data = [
     { id: "newRequest", icon: FaBell, color: "text-blue-500" },
     { id: "markedDone", icon: CiCircleCheck, color: "text-green-500" },
     { id: "infoUpdated", icon: IoMdInformationCircle, color: "text-gray-500" },
-    { id: "waitingReply", icon: GoAlert, color: "text-red-500" },
-    { id: "sendError", icon: GoXCircleFill, color: "text-yellow-500" },
+    { id: "waitingReply", icon: FaUserClock, color: "text-yellow-500" },
+    { id: "sendError", icon: GoXCircleFill, color: "text-red-500" },
 ];
 
 const MAX_VISIBLE = 3;
