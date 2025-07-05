@@ -99,17 +99,14 @@ const ChatSimulation = () => {
     return (
         <div
             ref={containerRef}
-            className="relative bg-[url('/projects/whatsapp/wa_default_bg.jpg')] bg-[length:40%] bg-center rounded-xl shadow-xl w-full max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto select-none">
-            {/* Overlay for opacity */}
-            <div className="absolute inset-0 bg-white/10 rounded-xl pointer-events-none"></div>
+            className="relative bg-[url('/projects/replyia/wa_default_bg.jpg')] bg-contain rounded-xl shadow-xl w-full max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto select-none">
 
             <div className="relative">
                 <ChatHeader />
                 <div
                     className="messages-container p-5 md:p-8 flex flex-col
-            min-h-[350px] md:min-h-[450px]
-            max-h-[500px] md:max-h-[600px]
-            overflow-y-auto space-y-3"
+                        h-[600px]   md:h-[500px]  lg:h-[500px]
+                        overflow-y-auto space-y-3"
                 >
                     {pastMessages.map((msg, i) => (
                         <ChatMessage
