@@ -1,0 +1,229 @@
+{
+  "navbar": {
+    "contactsBtn": "Contacts"
+  },
+  "hero": {
+    "title-1": "Connect smarter",
+    "title-2": "with customers",
+    "subtitle": "Transform the way your business interacts with customers ReplyIA’s intelligent WhatsApp chatbots—effortlessly enhancing support, driving engagement, and boosting efficiency, all in one simple solution."
+  },
+  "chatSimulation": {
+    "botName": "ReplyIA Inc.",
+    "0": "I need some help",
+    "1": "Of course! How can I help you today?",
+    "2": "I would like to book an appointment",
+    "3": "Sure! Offices are available today from 14 to 18, or tomorrow all-day. What do you prefer?",
+    "4": "Tomorrow at 9 will be fine",
+    "5": "Okay, I've booked your appointment! 👌🏼"
+  },
+  "features": [
+    {
+      "title": "Your personal Control Center",
+      "description": "Instantly connect with your customers through an intuitive, fully customizable dashboard. Manage everything effortlessly—all in one place, always under your control."
+    },
+    {
+      "title": "Categorize requests",
+      "description": "Every customer inquiry is neatly categorized and clearly labeled, enabling your entire team to collaborate effortlessly. Assign, manage, and respond faster—together."
+    },
+    {
+      "title": "Stay Connected, Stay Informed",
+      "description": "Your entire team stays aligned with real-time visibility into ongoing tasks. With targeted notifications, everyone knows exactly what’s happening—keeping collaboration seamless and efficient."
+    },
+    {
+      "title": "Save Time, Communicate Better",
+      "description": "Create your own personalized message templates to streamline conversations and respond instantly. Speed up interactions, ensure consistency, and effortlessly boost your team’s productivity—all with a few clicks."
+    }
+  ],
+
+  "categories": {
+    "sales": {
+      "label": "Sales",
+      "messages": [
+        { "id": 1, "name": "Alice Smith", "text": "Interested in bulk order pricing." },
+        { "id": 2, "name": "Bob Johnson", "text": "Can I get a demo?" },
+        { "id": 3, "name": "Carol Lee", "text": "Need a discount code." }
+      ]
+    },
+    "tech": {
+      "label": "Tech",
+      "messages": [
+        { "id": 1, "name": "Dan Brown", "text": "My app crashes on start." },
+        { "id": 2, "name": "Eve Davis", "text": "Integration with API fails." },
+        { "id": 3, "name": "Frank Miller", "text": "Need help with webhook setup." },
+        { "id": 4, "name": "Grace Kim", "text": "Error 500 on login." }
+      ]
+    },
+    "billing": {
+      "label": "Billing",
+      "messages": [
+        { "id": 1, "name": "Henry Scott", "text": "Invoice #123 missing." },
+        { "id": 2, "name": "Ivy Wilson", "text": "Refund status update?" },
+        { "id": 3, "name": "Jack White", "text": "Change payment method." },
+        { "id": 4, "name": "Karen Young", "text": "Overcharged last month." },
+        { "id": 5, "name": "Larry King", "text": "Need monthly statements." }
+      ]
+    },
+    "support": {
+      "label": "Support",
+      "messages": [
+        { "id": 1, "name": "Mona Lisa", "text": "Where can I reset my password?" },
+        { "id": 2, "name": "Ned Stark", "text": "Two-factor auth help needed." }
+      ]
+    }
+  },
+  "dashboard": {
+    "contacts": {
+      "1": "Dan Brown",
+      "2": "Bob Johnson",
+      "3": "Carol Lee",
+      "4": "Alice Smith"
+    },
+    "statuses": {
+      "chatting": "Chatting",
+      "needsResponse": "Needs Response",
+      "waitingReply": "Waiting Reply",
+      "solved": "Solved"
+    },
+    "categories": {
+      "sales": "Sales",
+      "tech": "Tech",
+      "billing": "Billing",
+      "support": "Support"
+    },
+    "teams": {
+      "t1": "Grace",
+      "t2": "Dan",
+      "t3": "Frank",
+      "t4": "Eve"
+    },
+    "days": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    }
+  },
+  "notifications": {
+    "newRequest": "New request received",
+    "markedDone": "Teammate marked request as solved",
+    "infoUpdated": "Information updated",
+    "waitingReply": "Customer is waiting a reply",
+    "sendError": "Error sending a message"
+  },
+
+
+  "templates": {
+    "to": "To",
+    "template": "Template",
+    "select": "Select template",
+    "contacts": [
+      {
+        "id": "alice_smith",
+        "fullName": "Alice Smith",
+        "templates": [
+          {
+            "id": "welcome",
+            "title": "Welcome",
+            "body": "Hello Alice,\nWelcome aboard! Explore your dashboard and all our features.\nOur support team is here 24/7 if you need anything.",
+            "signature": "– Alice"
+          },
+          {
+            "id": "reminder",
+            "title": "Reminder",
+            "body": "Hi Alice,\nQuick reminder: meeting tomorrow at 3 PM in the main conference room.\nPlease bring the latest report.",
+            "signature": "– Alice"
+          }
+        ]
+      },
+      {
+        "id": "bob_johnson",
+        "fullName": "Bob Johnson",
+        "templates": [
+          {
+            "id": "thanks",
+            "title": "Thank You",
+            "body": "Hello Bob,\nThanks for reaching out. We're reviewing your request.\nWe'll update you by tomorrow.",
+            "signature": "– Bob"
+          },
+          {
+            "id": "followup",
+            "title": "Follow-Up",
+            "body": "Hi Bob,\nWe've completed initial tests, everything looks good.\nWe'll keep you updated on next steps.",
+            "signature": "– Bob"
+          }
+        ]
+      },
+      {
+        "id": "carol_lee",
+        "fullName": "Carol Lee",
+        "templates": [
+          {
+            "id": "update",
+            "title": "Order Update",
+            "body": "Hi Carol,\nYour order shipped! Track it via your account link.\nDelivery expected in 3–5 days.",
+            "signature": "– Carol"
+          },
+          {
+            "id": "feedback",
+            "title": "Feedback Request",
+            "body": "Hello Carol,\nEnjoyed our new feature? We'd love your feedback!\nIt helps us improve greatly.",
+            "signature": "– Carol"
+          }
+        ]
+      },
+      {
+        "id": "dan_brown",
+        "fullName": "Dan Brown",
+        "templates": [
+          {
+            "id": "support",
+            "title": "Support",
+            "body": "Hi Dan,\nWe've received your request; a ticket is open with our tech team.\nWe'll update you soon.",
+            "signature": "– Dan"
+          },
+          {
+            "id": "survey",
+            "title": "Survey",
+            "body": "Hello Dan,\nCan you spare 2 minutes for a quick survey?\nYour input helps us improve!",
+            "signature": "– Dan"
+          }
+        ]
+      }
+    ]
+  },
+  "whyChoose": {
+    "sectionTitle": "Why choose ReplyIA",
+    "aiAutomation": {
+      "title": "AI Automation",
+      "desc": "Free up your team by automating repetitive requests with intelligent bots."
+    },
+    "availability": {
+      "title": "24/7 Availability",
+      "desc": "Keep customers happy with instant, around-the-clock responses—no agents needed."
+    },
+    "instantReplies": {
+      "title": "Instant Replies",
+      "desc": "Empower staff with canned messages to respond in seconds, not minutes."
+    },
+    "smartRouting": {
+      "title": "Smart Routing",
+      "desc": "Automatically categorize inquiries and grant role-based access for team efficiency."
+    },
+    "rapidScaling": {
+      "title": "Rapid Scaling",
+      "desc": "Deploy a customizable, scalable solution in weeks—pre-built for common use cases."
+    },
+    "deepInsights": {
+      "title": "Deep Insights",
+      "desc": "Leverage real-time analytics to track performance and optimize your workflows."
+    }
+  },
+  "cta": {
+    "title": "Interested? Let's Talk!",
+    "desc": "Ready to boost your customer engagement and streamline support? Reach out today.",
+    "button": "Contact Me"
+  }
+}

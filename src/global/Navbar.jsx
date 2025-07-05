@@ -16,12 +16,15 @@ function classNames(...classes) {
 
 export default function Navbar() {
     const location = useLocation();
-    const isHome = location.pathname === "/";
+    const shouldShow = location.pathname === "/" || location.pathname === "/replyia";
 
-    if (isHome) return null;
+    if (shouldShow) return null;
 
     return (
-        <Disclosure as="nav" className="bg-white shadow-md z-50">
+        <Disclosure
+            as="nav"
+            className="sticky top-0 z-40 bg-white/80 backdrop-blur-md shadow-sm"
+        >
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

@@ -7,7 +7,8 @@ import ProjectsView from "@/views/ProjectsView.jsx";
 import ContactsView from "@/views/ContactsView.jsx";
 import TiSeguoView from "@/views/projects/TiSeguoView.jsx";
 import CustomerRadarView from "@/views/projects/CustomerRadarView.jsx";
-import WhatsappView from "@/views/projects/WhatsappView.jsx";
+import ReplyiaView from "@/views/projects/ReplyiaView.jsx";
+import AnimateOnLang from "@/global/multiLang/AnimateOnLang.jsx";
 
 export default function AppContent() {
     return (
@@ -22,7 +23,14 @@ export default function AppContent() {
                     <Route path="/contacts" element={<ContactsView />} />
                     <Route path="/ti-seguo" element={<TiSeguoView />} />
                     <Route path="/customer-radar" element={<CustomerRadarView />} />
-                    <Route path="/whatsapp-chatbot" element={<WhatsappView />} />
+                    <Route
+                        path="/replyia"
+                        element={
+                            <AnimateOnLang id="replyia">
+                                <ReplyiaView />
+                            </AnimateOnLang>
+                        }
+                    />
                 </Routes>
             </main>
 

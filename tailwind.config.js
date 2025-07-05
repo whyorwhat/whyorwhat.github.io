@@ -18,9 +18,9 @@ export default {
             animation: {
                 gradient: 'gradient 8s linear infinite'
             },
-            // Font Ubuntu
             fontFamily: {
                 sans: ['Ubuntu', 'sans-serif'],
+                inter: ['Inter', 'sans-serif'],
             },
         },
     },

@@ -33,8 +33,11 @@ export function ProjectCard({
                     <h3 className="text-xl font-extrabold text-gray-800 mb-4">{title}</h3>
                     <p className="text-sm text-gray-600 mb-4">{description}</p>
 
-                    <div className="flex items-center text-xs text-gray-500 mb-4">
-                        <span className="mr-2">Made with:</span>
+                    <div
+                        className="flex flex-col md:flex-row text-xs text-gray-500 mb-4
+                            items-start md:items-center"
+                    >
+                        <span className="mb-1 md:mb-0 md:mr-2">Made&nbsp;with:</span>
                         <TechnologiesIcons technologies={technologies} />
                     </div>
 

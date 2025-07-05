@@ -1,0 +1,234 @@
+{
+  "navbar": {
+    "contactsBtn": "Contatti"
+  },
+  "hero": {
+    "title-1": "Connettiti",
+    "title-2": "con i clienti",
+    "subtitle": "Trasforma il modo in cui la tua azienda interagisce con i clienti grazie a ReplyIA, la soluzione con chatbot intelligenti su WhatsApp. Migliorando senza sforzo l’assistenza, aumentando il coinvolgimento e potenziando l’efficienza, tutto in un’unica soluzione semplice."
+  },
+
+  "chatSimulation": {
+    "botName": "ReplyIA Srl",
+    "0": "Ho bisogno di aiuto",
+    "1": "Certamente! In cosa posso assisterti oggi?",
+    "2": "Vorrei fissare un appuntamento",
+    "3": "Certo! Gli uffici sono disponibili oggi dalle 14 alle 18 oppure domani tutto il giorno. Cosa preferisci?",
+    "4": "Domani alle 9 va bene",
+    "5": "Perfetto, ho prenotato il tuo appuntamento! 👌🏼"
+  },
+
+  "features": [
+    {
+      "title": "Il tuo Control Center personale",
+      "description": "Connettiti istantaneamente con i tuoi clienti tramite una dashboard intuitiva e completamente personalizzabile. Gestisci tutto senza sforzo, in un unico luogo, sempre sotto controllo."
+    },
+    {
+      "title": "Categorizza le richieste",
+      "description": "Ogni richiesta dei clienti viene ordinata e etichettata in modo chiaro, permettendo al tuo team di collaborare senza sforzi. Assegna, gestisci e rispondi più velocemente—insieme."
+    },
+    {
+      "title": "Rimani connesso e aggiornato",
+      "description": "Il tuo team rimane allineato grazie alla visibilità in tempo reale sulle attività in corso. Con notifiche mirate, tutti sanno esattamente cosa sta succedendo—mantenendo la collaborazione fluida ed efficiente."
+    },
+    {
+      "title": "Risparmia tempo, comunica meglio",
+      "description": "Crea modelli di messaggio personalizzati per velocizzare le conversazioni e rispondere all’istante. Accelera le interazioni, garantisci coerenza e aumenta senza sforzi la produttività del tuo team—con pochi clic."
+    }
+  ],
+
+  "categories": {
+    "sales": {
+      "label": "Vendite",
+      "messages": [
+        { "id": 1, "name": "Alessia Bianchi", "text": "Interessata ai prezzi per ordini all'ingrosso." },
+        { "id": 2, "name": "Roberto Gianni", "text": "Posso avere una demo?" },
+        { "id": 3, "name": "Carla Rossi", "text": "Ho bisogno di un codice sconto." }
+      ]
+    },
+    "tech": {
+      "label": "Tecnica",
+      "messages": [
+        { "id": 1, "name": "Daniele Bruno", "text": "La mia app si blocca all’avvio." },
+        { "id": 2, "name": "Eva Davis", "text": "L’integrazione con l’API non funziona." },
+        { "id": 3, "name": "Franco Miller", "text": "Ho bisogno di aiuto per configurare il webhook." },
+        { "id": 4, "name": "Graziella Kim", "text": "Errore 500 durante il login." }
+      ]
+    },
+    "billing": {
+      "label": "Fatturazione",
+      "messages": [
+        { "id": 1, "name": "Enrico Scotti", "text": "Fattura n. 123 mancante." },
+        { "id": 2, "name": "Ivana Wilson", "text": "Aggiornamento stato rimborso?" },
+        { "id": 3, "name": "Giacomo Bianchi", "text": "Cambiare metodo di pagamento." },
+        { "id": 4, "name": "Chiara Young", "text": "Addebitato eccessivamente il mese scorso." },
+        { "id": 5, "name": "Lorenzo Re", "text": "Ho bisogno degli estratti mensili." }
+      ]
+    },
+    "support": {
+      "label": "Supporto",
+      "messages": [
+        { "id": 1, "name": "Mona Lisa", "text": "Dove posso reimpostare la password?" },
+        { "id": 2, "name": "Ned Stark", "text": "Ho bisogno di aiuto per l’autenticazione a due fattori." }
+      ]
+    }
+  },
+
+  "dashboard": {
+    "contacts": {
+      "1": "Daniele Bruno",
+      "2": "Roberto Gianni",
+      "3": "Carla Rossi",
+      "4": "Alessia Bianchi"
+    },
+    "statuses": {
+      "chatting": "In chat",
+      "needsResponse": "Aspetta risposta",
+      "waitingReply": "Deve rispondere",
+      "solved": "Risolto"
+    },
+    "categories": {
+      "sales": "Vendite",
+      "tech": "Tecnica",
+      "billing": "Fatture",
+      "support": "Supporto"
+    },
+    "teams": {
+      "t1": "Graziella",
+      "t2": "Daniele",
+      "t3": "Franco",
+      "t4": "Eva"
+    },
+    "days": {
+      "mon": "Lun",
+      "tue": "Mar",
+      "wed": "Mer",
+      "thu": "Gio",
+      "fri": "Ven",
+      "sat": "Sab",
+      "sun": "Dom"
+    }
+  },
+
+  "notifications": {
+    "newRequest": "Nuova richiesta ricevuta",
+    "markedDone": "Richiesta contrassegnata come risolto",
+    "infoUpdated": "Informazioni aggiornate",
+    "waitingReply": "Il cliente è in attesa di risposta",
+    "sendError": "Errore nell'invio del messaggio"
+  },
+
+  "templates": {
+    "to": "A",
+    "template": "Modello",
+    "select": "Seleziona modello",
+    "contacts": [
+      {
+        "id": "alice_smith",
+        "fullName": "Alessia Bianchi",
+        "templates": [
+          {
+            "id": "welcome",
+            "title": "Benvenuta",
+            "body": "Ciao Alessia,\nBenvenuta a bordo! Esplora il tuo dashboard e tutte le nostre funzionalità.\nIl nostro team di supporto è disponibile 24/7 se hai bisogno di qualsiasi cosa.",
+            "signature": "– Alessia"
+          },
+          {
+            "id": "reminder",
+            "title": "Promemoria",
+            "body": "Ciao Alessia,\nPromemoria veloce: riunione domani alle 15:00 nella sala conferenze principale.\nPorta l'ultimo report, per favore.",
+            "signature": "– Alessia"
+          }
+        ]
+      },
+      {
+        "id": "bob_johnson",
+        "fullName": "Roberto Gianni",
+        "templates": [
+          {
+            "id": "thanks",
+            "title": "Grazie",
+            "body": "Ciao Roberto,\nGrazie per averci contattato. Stiamo valutando la tua richiesta.\nTi aggiorneremo entro domani.",
+            "signature": "– Roberto"
+          },
+          {
+            "id": "followup",
+            "title": "Follow-up",
+            "body": "Ciao Roberto,\nAbbiamo completato i primi test, tutto sembra a posto.\nTi terremo aggiornato sui prossimi passi.",
+            "signature": "– Roberto"
+          }
+        ]
+      },
+      {
+        "id": "carol_lee",
+        "fullName": "Carla Rossi",
+        "templates": [
+          {
+            "id": "update",
+            "title": "Aggiornamento ordine",
+            "body": "Ciao Carla,\nIl tuo ordine è stato spedito! Puoi tracciarlo dal link nel tuo account.\nConsegna prevista in 3–5 giorni lavorativi.",
+            "signature": "– Carla"
+          },
+          {
+            "id": "feedback",
+            "title": "Richiesta feedback",
+            "body": "Ciao Carla,\nTi è piaciuta la nostra nuova funzione? Ci farebbe piacere il tuo feedback!\nCi aiuta a migliorare molto.",
+            "signature": "– Carla"
+          }
+        ]
+      },
+      {
+        "id": "dan_brown",
+        "fullName": "Daniele Bruno",
+        "templates": [
+          {
+            "id": "support",
+            "title": "Assistenza",
+            "body": "Ciao Daniele,\nAbbiamo ricevuto la tua richiesta; è stato aperto un ticket con il nostro team tecnico.\nTi aggiorneremo a breve.",
+            "signature": "– Daniele"
+          },
+          {
+            "id": "survey",
+            "title": "Sondaggio",
+            "body": "Ciao Daniele,\nHai 2 minuti per un breve sondaggio?\nIl tuo contributo ci aiuta a migliorare!",
+            "signature": "– Daniele"
+          }
+        ]
+      }
+    ]
+  },
+
+  "whyChoose": {
+    "sectionTitle": "Perché scegliere ReplyIA",
+    "aiAutomation": {
+      "title": "Automazione AI",
+      "desc": "Libera il tuo team automatizzando le richieste ripetitive con bot intelligenti."
+    },
+    "availability": {
+      "title": "Disponibilità 24/7",
+      "desc": "Mantieni i clienti soddisfatti con risposte istantanee, in qualsiasi momento—senza operatori."
+    },
+    "instantReplies": {
+      "title": "Risposte Istantanee",
+      "desc": "Dai al personale messaggi predefiniti per rispondere in pochi secondi, non minuti."
+    },
+    "smartRouting": {
+      "title": "Instradamento Intelligente",
+      "desc": "Classifica automaticamente le richieste e concedi accessi basati sui ruoli per l’efficienza del team."
+    },
+    "rapidScaling": {
+      "title": "Scalabilità Rapida",
+      "desc": "Implementa soluzioni personalizzabili e scalabili in poche settimane—già pronte per casi d’uso comuni."
+    },
+    "deepInsights": {
+      "title": "Analisi Approfondite",
+      "desc": "Usa analisi in tempo reale per monitorare le prestazioni e ottimizzare i flussi di lavoro."
+    }
+  },
+
+  "cta": {
+    "title": "Interessato? Parliamone!",
+    "desc": "Pronto a migliorare l’interazione con i clienti e snellire il supporto? Iniziamo.",
+    "button": "Contattami"
+  }
+}

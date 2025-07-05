@@ -1,4 +1,4 @@
-@import "devicon/devicon.min.css";
+@import url('https://rsms.me/inter/inter.css');
 
 @tailwind base;
 @tailwind components;
@@ -9,3 +9,6 @@ body {
     @apply font-sans;
 }
 
+html{
+    scroll-behavior:smooth;
+}

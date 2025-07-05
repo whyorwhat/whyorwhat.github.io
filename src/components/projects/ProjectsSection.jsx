@@ -6,19 +6,19 @@ export function ProjectsSection() {
         () => [
             {
                 id: 1,
+                title: 'ReplyIA',
+                description:
+                    'A Support Chatbot for WhatsApp that allows multi-user teams to efficiently manage and respond to large volumes of customer requests from a single shared interface.',
+                viewLink: '/replyia',
+                technologies: ['java', 'python', 'spring', 'react', 'tailwind', 'dynamodb', 'amazonwebservices', 'docker'],
+            },
+            {
+                id: 2,
                 title: 'AuroraKeep',
                 description:
                     'A user-friendly accounting web app for businesses and individuals, offering features such as expense tracking, invoicing, tax calculations, file management, and support for customizable formulas.',
                 viewLink: 'https://aurorakeep.com',
                 technologies: ['spring', 'java', 'vuejs', 'bootstrap', 'mariadb', 'amazonwebservices']
-            },
-            {
-                id: 2,
-                title: 'WhatsApp Support Chatbot',
-                description:
-                    'WhatsApp bot that allows multi-user teams to efficiently manage and respond to large volumes of customer requests from a single shared interface.',
-                viewLink: '/whatsapp-chatbot',
-                technologies: ['java', 'python', 'spring', 'react', 'tailwind', 'dynamodb', 'amazonwebservices', 'docker'],
             },
             {
                 id: 3,
