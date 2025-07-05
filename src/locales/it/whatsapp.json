@@ -131,13 +131,13 @@
             "id": "welcome",
             "title": "Benvenuta",
             "body": "Ciao Alessia,\nBenvenuta a bordo! Esplora il tuo dashboard e tutte le nostre funzionalità.\nIl nostro team di supporto è disponibile 24/7 se hai bisogno di qualsiasi cosa.",
-            "signature": "– Alessia"
+            "signature": "Team di ReplyIA"
           },
           {
             "id": "reminder",
             "title": "Promemoria",
             "body": "Ciao Alessia,\nPromemoria veloce: riunione domani alle 15:00 nella sala conferenze principale.\nPorta l'ultimo report, per favore.",
-            "signature": "– Alessia"
+            "signature": "Team di ReplyIA"
           }
         ]
       },
@@ -149,13 +149,13 @@
             "id": "thanks",
             "title": "Grazie",
             "body": "Ciao Roberto,\nGrazie per averci contattato. Stiamo valutando la tua richiesta.\nTi aggiorneremo entro domani.",
-            "signature": "– Roberto"
+            "signature": "Team di ReplyIA"
           },
           {
             "id": "followup",
             "title": "Follow-up",
             "body": "Ciao Roberto,\nAbbiamo completato i primi test, tutto sembra a posto.\nTi terremo aggiornato sui prossimi passi.",
-            "signature": "– Roberto"
+            "signature": "Team di ReplyIA"
           }
         ]
       },
@@ -167,13 +167,13 @@
             "id": "update",
             "title": "Aggiornamento ordine",
             "body": "Ciao Carla,\nIl tuo ordine è stato spedito! Puoi tracciarlo dal link nel tuo account.\nConsegna prevista in 3–5 giorni lavorativi.",
-            "signature": "– Carla"
+            "signature": "Team di ReplyIA"
           },
           {
             "id": "feedback",
             "title": "Richiesta feedback",
             "body": "Ciao Carla,\nTi è piaciuta la nostra nuova funzione? Ci farebbe piacere il tuo feedback!\nCi aiuta a migliorare molto.",
-            "signature": "– Carla"
+            "signature": "Team di ReplyIA"
           }
         ]
       },
@@ -185,13 +185,13 @@
             "id": "support",
             "title": "Assistenza",
             "body": "Ciao Daniele,\nAbbiamo ricevuto la tua richiesta; è stato aperto un ticket con il nostro team tecnico.\nTi aggiorneremo a breve.",
-            "signature": "– Daniele"
+            "signature": "Team di ReplyIA"
           },
           {
             "id": "survey",
             "title": "Sondaggio",
             "body": "Ciao Daniele,\nHai 2 minuti per un breve sondaggio?\nIl tuo contributo ci aiuta a migliorare!",
-            "signature": "– Daniele"
+            "signature": "Team di ReplyIA"
           }
         ]
       }

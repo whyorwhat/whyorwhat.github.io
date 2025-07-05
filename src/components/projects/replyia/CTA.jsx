@@ -17,7 +17,7 @@ export default function CTA({ id = "cta" }) {
             </p>
 
             <a
-                href="/contacts"
+                href="/#/contacts"
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200"
             >
                 {t("cta.button")}

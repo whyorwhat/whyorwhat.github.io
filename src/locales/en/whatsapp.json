@@ -128,13 +128,13 @@
             "id": "welcome",
             "title": "Welcome",
             "body": "Hello Alice,\nWelcome aboard! Explore your dashboard and all our features.\nOur support team is here 24/7 if you need anything.",
-            "signature": "– Alice"
+            "signature": "ReplyIA's Team"
           },
           {
             "id": "reminder",
             "title": "Reminder",
             "body": "Hi Alice,\nQuick reminder: meeting tomorrow at 3 PM in the main conference room.\nPlease bring the latest report.",
-            "signature": "– Alice"
+            "signature": "ReplyIA's Team"
           }
         ]
       },
@@ -146,13 +146,13 @@
             "id": "thanks",
             "title": "Thank You",
             "body": "Hello Bob,\nThanks for reaching out. We're reviewing your request.\nWe'll update you by tomorrow.",
-            "signature": "– Bob"
+            "signature": "ReplyIA's Team"
           },
           {
             "id": "followup",
             "title": "Follow-Up",
             "body": "Hi Bob,\nWe've completed initial tests, everything looks good.\nWe'll keep you updated on next steps.",
-            "signature": "– Bob"
+            "signature": "ReplyIA's Team"
           }
         ]
       },
@@ -164,13 +164,13 @@
             "id": "update",
             "title": "Order Update",
             "body": "Hi Carol,\nYour order shipped! Track it via your account link.\nDelivery expected in 3–5 days.",
-            "signature": "– Carol"
+            "signature": "ReplyIA's Team"
           },
           {
             "id": "feedback",
             "title": "Feedback Request",
             "body": "Hello Carol,\nEnjoyed our new feature? We'd love your feedback!\nIt helps us improve greatly.",
-            "signature": "– Carol"
+            "signature": "ReplyIA's Team"
           }
         ]
       },
@@ -182,13 +182,13 @@
             "id": "support",
             "title": "Support",
             "body": "Hi Dan,\nWe've received your request; a ticket is open with our tech team.\nWe'll update you soon.",
-            "signature": "– Dan"
+            "signature": "ReplyIA's Team"
           },
           {
             "id": "survey",
             "title": "Survey",
             "body": "Hello Dan,\nCan you spare 2 minutes for a quick survey?\nYour input helps us improve!",
-            "signature": "– Dan"
+            "signature": "ReplyIA's Team"
           }
         ]
       }
